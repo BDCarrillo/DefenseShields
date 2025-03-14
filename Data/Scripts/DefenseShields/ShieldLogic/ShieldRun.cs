@@ -38,7 +38,6 @@ namespace DefenseShields
             CapString = Localization.GetText("InfoShieldCapString");
             Shield = (IMyUpgradeModule)Entity;
             MyCube = (MyCubeBlock)Entity;
-            FakeController.SlimBlock = MyCube.SlimBlock;
             StorageSetup();
         }
 

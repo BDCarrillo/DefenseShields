@@ -363,7 +363,7 @@ namespace DefenseShields
         private void ResetDistributor()
         {
             _checkResourceDist = false;
-            MyResourceDist = FakeController.GridResourceDistributor;
+            MyResourceDist = (MyResourceDistributorComponent)((IMyCubeGrid)MyGrid).ResourceDistributor;
         }
 
         private void PowerPreInit()

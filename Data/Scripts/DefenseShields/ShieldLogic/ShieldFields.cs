@@ -47,7 +47,6 @@ namespace DefenseShields
         internal readonly HashSet<MyEntity> FriendlyMissileCache = new HashSet<MyEntity>();
         internal readonly ShieldChargeMgr ChargeMgr = new ShieldChargeMgr();
         internal readonly ConcurrentDictionary<MyEntity, ProtectCache> ProtectedEntCache = new ConcurrentDictionary<MyEntity, ProtectCache>();
-        internal readonly MyShipController FakeController = new MyShipController();
 
         internal readonly ConcurrentDictionary<MyEntity, EntIntersectInfo> WebEnts = new ConcurrentDictionary<MyEntity, EntIntersectInfo>();
         internal readonly ConcurrentDictionary<MyEntity, MoverInfo> EntsByMe = new ConcurrentDictionary<MyEntity, MoverInfo>();

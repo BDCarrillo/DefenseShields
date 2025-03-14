@@ -217,28 +217,11 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DarkStar</DisplayName>
+      <DisplayName>Defense Shields</DisplayName>
       <Name>DarkStar_Shield_MFG_INC</Name>
       <ItemIds>
-        
-		<string>SmallShieldModulator</string>
-		<string>LargeShieldModulator</string>
-    <string>DSControlLCD</string>
-    <string>DSControlLCDWide</string>
-		<string>DSControlTable</string>
-		<string>DSControlSmall</string>
-		<string>DSControlLarge</string>
-		<string>EmitterL</string>
-		<string>EmitterS</string>
-		<!--<string>PlanetaryEmitter</string> -->
-		<string>EmitterST</string>
-		<string>EmitterLA</string>
-		<string>EmitterSA</string>
-		<string>DS_Supergen</string>
-		<string>LargeEnhancer</string>
-		<string>SmallEnhancer</string>
-
-
+		<string>UpgradeModule/DSControlLarge</string>
+		<string>UpgradeModule/EmitterL</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

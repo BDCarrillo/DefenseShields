@@ -604,9 +604,6 @@
     <Compile Include="Data\Scripts\DefenseShields\SupportClasses\Localization.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Data\Scripts\DefenseShields\SupportClasses\PhysicsCatch\CatchEntities.cs">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
     <Compile Include="Data\Scripts\DefenseShields\SupportClasses\ShieldDtree.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
