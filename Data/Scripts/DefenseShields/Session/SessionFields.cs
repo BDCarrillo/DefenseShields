@@ -7,7 +7,6 @@ namespace DefenseShields
     using System.Collections.Concurrent;
     using System.Collections.Generic;
     using Support;
-    using Sandbox.Common.ObjectBuilders;
     using Sandbox.Game.Entities;
     using Sandbox.ModAPI.Interfaces.Terminal;
     using VRage.Collections;

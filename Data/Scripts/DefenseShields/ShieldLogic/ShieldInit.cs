@@ -1,7 +1,4 @@
-﻿
-using System.Linq;
-using SpaceEngineers.Game.ModAPI;
-using VRage.Game.ModAPI;
+﻿using VRage.Game.ModAPI;
 
 namespace DefenseShields
 {

@@ -3,12 +3,8 @@
     using System;
     using System.Text;
     using Support;
-    using Sandbox.Common.ObjectBuilders;
     using Sandbox.Game.Entities;
     using Sandbox.ModAPI;
-    using Sandbox.ModAPI.Weapons;
-    using VRage;
-    using VRage.Game.Entity;
     using VRage.Game.ModAPI;
 
     public partial class DefenseShields

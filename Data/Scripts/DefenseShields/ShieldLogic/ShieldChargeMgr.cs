@@ -1,9 +1,7 @@
 ﻿using System;
 using DefenseShields.Support;
 using Sandbox.ModAPI;
-using VRage.Utils;
 using VRageMath;
-using static VRage.Game.MyObjectBuilder_ControllerSchemaDefinition;
 
 namespace DefenseShields
 {

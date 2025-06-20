@@ -1,6 +1,4 @@
-﻿using Sandbox.Game;
-using VRage.Collections;
-using VRage.Game;
+﻿using VRage.Collections;
 
 namespace DefenseShields
 {

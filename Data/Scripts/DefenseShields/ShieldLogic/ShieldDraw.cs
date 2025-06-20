@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 using DefenseShields.Support;
 using Sandbox.ModAPI;
 using VRage.Game;
@@ -7,7 +6,6 @@ using VRage.Game.Entity;
 using VRage.Game.ModAPI;
 using VRage.Utils;
 using VRageMath;
-using static VRage.Game.MyObjectBuilder_CurveDefinition;
 using BlendTypeEnum = VRageRender.MyBillboard.BlendTypeEnum;
 namespace DefenseShields
 {

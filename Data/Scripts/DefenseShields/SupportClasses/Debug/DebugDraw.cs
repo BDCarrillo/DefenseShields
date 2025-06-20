@@ -2,7 +2,6 @@
 using VRage.Game;
 using VRage.Utils;
 using VRageMath;
-using BlendTypeEnum = VRageRender.MyBillboard.BlendTypeEnum;
 
 namespace DefenseShields.Support
 {

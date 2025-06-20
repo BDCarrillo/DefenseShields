@@ -8,7 +8,6 @@ namespace DefenseShields
     using Sandbox.Game.Entities;
     using Sandbox.ModAPI;
     using System.Text;
-    using static VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GameDefinition;
 
     internal static class ModUi
     {

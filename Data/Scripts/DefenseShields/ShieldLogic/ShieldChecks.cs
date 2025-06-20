@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using DefenseShields.Support;
-using GjkShapes;
 using Sandbox.Game.Entities;
 using Sandbox.ModAPI;
 using VRage.Game;
 using VRage.Game.Entity;
 using VRage.Game.ModAPI;
 using VRage.ModAPI;
-using VRage.Noise.Patterns;
 using VRage.Utils;
 using VRageMath;
-using static DefenseShields.DefenseShields;
-using static VRage.Game.MyObjectBuilder_BlockNavigationDefinition;
 
 namespace DefenseShields
 {

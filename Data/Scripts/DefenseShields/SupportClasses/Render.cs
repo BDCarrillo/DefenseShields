@@ -1,6 +1,4 @@
-﻿using VRage.Game.ModAPI;
-
-namespace DefenseShields.Support
+﻿namespace DefenseShields.Support
 {
     using System;
     using System.Collections.Generic;

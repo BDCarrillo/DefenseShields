@@ -1,11 +1,8 @@
 ﻿using System.Collections.Concurrent;
-using VRage.Audio;
 
 namespace DefenseShields.Support
 {
     using System;
-    using System.Collections.Generic;
-    using Sandbox.Game.EntityComponents;
     using Sandbox.Game.Entities;
     using Sandbox.ModAPI;
     using VRage.Collections;

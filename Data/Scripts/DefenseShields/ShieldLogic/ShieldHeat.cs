@@ -1,12 +1,10 @@
 ﻿using System;
-using Sandbox.ModAPI;
 using VRage.Utils;
 using VRageMath;
 
 namespace DefenseShields
 {
     using Support;
-    using static VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GameDefinition;
 
     public partial class DefenseShields
     {

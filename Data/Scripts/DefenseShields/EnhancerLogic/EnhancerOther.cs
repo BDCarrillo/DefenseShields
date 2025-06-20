@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using DefenseShields.Support;
-using Sandbox.Game.Entities;
 using Sandbox.Game.EntityComponents;
 using Sandbox.ModAPI;
 using VRage.Game.Components;

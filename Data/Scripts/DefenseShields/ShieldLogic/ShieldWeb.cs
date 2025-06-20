@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using DefenseShields.Support;
 using Sandbox.Game.Entities;

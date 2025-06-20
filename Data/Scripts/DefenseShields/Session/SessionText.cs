@@ -1,6 +1,5 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
-using DefenseShields.Support;
 using VRage.Collections;
 using VRage.Game;
 using VRage.Utils;

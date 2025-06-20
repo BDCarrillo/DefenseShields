@@ -9,7 +9,6 @@
     using VRage.Utils;
     using VRageMath;
     using MyVisualScriptLogicProvider = Sandbox.Game.MyVisualScriptLogicProvider;
-    using Sandbox.Engine.Platform.VideoMode;
 
     [MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation | MyUpdateOrder.Simulation, int.MaxValue - 3)]
     public partial class Session : MySessionComponentBase

@@ -1,9 +1,6 @@
 ﻿using System.Collections.Concurrent;
-using System.Collections.Generic;
-using DefenseShields.Support;
 using Sandbox.Game.Entities;
 using VRage.Game.Components;
-using VRage.Game.ModAPI;
 using VRageMath;
 
 namespace DefenseShields

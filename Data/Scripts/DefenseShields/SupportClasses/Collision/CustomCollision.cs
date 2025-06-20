@@ -1,8 +1,4 @@
-﻿using Sandbox.ModAPI;
-using VRage.Game.ObjectBuilders.Definitions.SessionComponents;
-using VRage.Utils;
-
-namespace DefenseShields.Support
+﻿namespace DefenseShields.Support
 {
     using System;
     using System.Collections.Generic;

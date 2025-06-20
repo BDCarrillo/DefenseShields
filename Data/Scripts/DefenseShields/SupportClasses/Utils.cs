@@ -8,8 +8,6 @@ namespace DefenseShields.Support
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
-    using Sandbox.Game.Entities;
-    using VRageMath;
 
     internal static class ConcurrentQueueExtensions
     {

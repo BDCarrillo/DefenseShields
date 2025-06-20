@@ -1,7 +1,4 @@
 ﻿#region Using Statements
-using System;
-using System.Collections.Generic;
-using VRageMath;
 #endregion
 
 namespace Jitter.Collision

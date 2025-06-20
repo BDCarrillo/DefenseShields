@@ -6,9 +6,7 @@ using Sandbox.Game.Entities;
 using VRage.Game;
 using VRage.Game.Entity;
 using VRage.Game.ModAPI;
-using VRage.Utils;
 using VRageMath;
-using static VRage.Game.MyObjectBuilder_BehaviorTreeDecoratorNode;
 
 namespace DefenseShields
 {

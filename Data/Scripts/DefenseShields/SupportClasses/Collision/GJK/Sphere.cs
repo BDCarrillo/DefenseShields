@@ -1,4 +1,3 @@
-using System;
 using VRageMath;
 
 namespace GjkShapes

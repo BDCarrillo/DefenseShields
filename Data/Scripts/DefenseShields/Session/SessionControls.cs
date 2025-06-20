@@ -12,7 +12,6 @@ namespace DefenseShields
     using Sandbox.ModAPI;
     using Sandbox.ModAPI.Interfaces.Terminal;
     using VRage.ModAPI;
-    using VRage.Utils;
 
     public partial class Session
     {

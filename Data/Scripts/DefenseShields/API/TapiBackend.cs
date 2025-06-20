@@ -7,14 +7,10 @@ using VRage;
 using VRage.Collections;
 using VRage.Game;
 using VRage.Game.Entity;
-using System.Collections.Generic;
 using System.Collections.Immutable;
 using VRage.Game.ModAPI;
 using VRage.ModAPI;
-using VRage.Utils;
 using VRageMath;
-using static VRage.Game.MyObjectBuilder_SessionComponentMission;
-using static VRage.Game.MyObjectBuilder_BehaviorTreeDecoratorNode;
 
 namespace DefenseShields
 {

@@ -4,8 +4,6 @@ using VRageMath;
 using Sandbox.ModAPI;
 using System;
 using System.Collections.Generic;
-using DefenseShields.Support;
-using Sandbox.Game.Entities;
 using VRage;
 using VRage.Game.Entity;
 using System.Collections.Immutable;

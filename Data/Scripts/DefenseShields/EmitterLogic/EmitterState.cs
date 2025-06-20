@@ -1,6 +1,4 @@
-﻿using System;
-using DefenseShields.Support;
-using Sandbox.Game.Entities;
+﻿using DefenseShields.Support;
 using Sandbox.ModAPI;
 
 namespace DefenseShields

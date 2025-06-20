@@ -1,11 +1,9 @@
 ﻿using VRageMath;
 using System;
-using DefenseShields.Support;
 using Sandbox.Game.Entities;
 using VRage;
 using VRage.Collections;
 using VRage.Utils;
-using Sandbox.ModAPI;
 
 namespace DefenseShields
 {

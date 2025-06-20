@@ -1,7 +1,4 @@
-﻿using DefenseShields.Support;
-using VRage;
-
-namespace DefenseShields
+﻿namespace DefenseShields
 {
     using System;
     using System.Collections.Generic;

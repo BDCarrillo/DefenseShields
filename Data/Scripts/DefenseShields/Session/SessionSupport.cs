@@ -5,7 +5,6 @@ using ParallelTasks;
 using VRage.Collections;
 using VRage.Input;
 using VRage.Utils;
-using VRageMath;
 
 namespace DefenseShields
 {
@@ -14,7 +13,6 @@ namespace DefenseShields
     using VRage.Game.ModAPI;
     using System;
     using VRage.Game.Entity;
-    using VRage.Game;
     using Sandbox.Game.Entities;
 
     public partial class Session
