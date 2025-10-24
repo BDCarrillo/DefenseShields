@@ -35,6 +35,7 @@ namespace DefenseShields
             MaxString = Localization.GetText("InfoShieldMaxString");
             CapString = Localization.GetText("InfoShieldCapString");
             Shield = (IMyUpgradeModule)Entity;
+            SuppressHex = Shield.BlockDefinition.SubtypeName.Contains("GFA");
             MyCube = (MyCubeBlock)Entity;
             StorageSetup();
         }

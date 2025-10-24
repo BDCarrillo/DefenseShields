@@ -365,6 +365,8 @@ namespace DefenseShields
         internal bool EntCleanUpTime { get; set; }
         internal bool ShieldActive { get; set; }
         internal bool ClientInitPacket { get; set; }
+        internal bool SuppressHex { get; set; }
+
 
         internal Vector3D MyGridCenter { get; set; }
         internal Vector3D WorldEllipsoidCenter { get; set; }

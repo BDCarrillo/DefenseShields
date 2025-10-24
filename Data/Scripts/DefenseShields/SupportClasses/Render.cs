@@ -420,7 +420,7 @@
                 if (_impact)
                 {
                     _impact = false;
-                    if (_active && Shield != null) HitFace();
+                    if (_active && Shield != null && !Shield.SuppressHex) HitFace();
 
                     ImpactsFinished = false;
                     _refresh = false;
