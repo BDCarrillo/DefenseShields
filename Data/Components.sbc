@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ShieldComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShieldComponent</DisplayName>
+      <Icon>Textures\Icons\Shield_Comp1.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.31</Mass>
+      <Volume>0.85</Volume>
+      <Model>Models\Components\Shield_Comp1.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>100</Health>
+    </Component>
+
+  </Components>
+</Definitions>

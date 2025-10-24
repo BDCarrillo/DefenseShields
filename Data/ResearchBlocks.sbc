@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SmallShieldModulator" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldEmitters</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeShieldModulator" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldEmitters</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlTable" />
+      <UnlockedByGroups>
+        <GroupSubtype>JumpDrivePlaceholder</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlSmall" />
+      <UnlockedByGroups>
+        <GroupSubtype>JumpDrivePlaceholder</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlLarge" />
+      <UnlockedByGroups>
+        <GroupSubtype>JumpDrivePlaceholder</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterL" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldControllers</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterS" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldControllers</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterST" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldControllers</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterLA" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldControllers</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterSA" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldControllers</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeShieldModulator" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldEmitters</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SmallShieldModulator" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldEmitters</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnhancer" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldModulation</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SmallEnhancer" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldModulation</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+  </ResearchBlocks>
+</Definitions>
