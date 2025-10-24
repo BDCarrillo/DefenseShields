@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldControllers" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlTable" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlSmall" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlLarge" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup>
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldEmitters" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterST" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterL" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterS" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterLA" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterSA" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup>
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldEnhancement" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnhancer" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="SmallEnhancer" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup>
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldModulation" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="SmallShieldModulator" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="LargeShieldModulator" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup>
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="JumpDrivePlaceholder" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
+        <BlockId Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
+        <BlockId Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallLarge" />
+        <BlockId Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
+        <BlockId Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallSmall" />
+      </Members>
+    </ResearchGroup>
+
+  </ResearchGroups>
+</Definitions>

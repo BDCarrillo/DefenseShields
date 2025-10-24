@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShieldEmitterGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ShipShield_Icon.dds</Icon>
+      <DisplayName>DisplayName_EmitterL</DisplayName>
+      <Description>Description_Emitter</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterL" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterS" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterST" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterLA" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="EmitterSA" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SmallEnhancer" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnhancer" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SmallShieldModulator" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeShieldModulator" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShieldControlGroup" />
+      <Icon>Textures\Icons\DS_Control_Block.dds</Icon>
+      <DisplayName>DisplayName_DSControlLarge</DisplayName>
+      <Description>Description_DSControl</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlLarge" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlTable" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="DSControlSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
