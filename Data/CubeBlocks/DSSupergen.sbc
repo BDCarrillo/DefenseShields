@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>DSSupergen</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_DSSupergen</DisplayName>
+      <Description>Description_DSSupergen</Description>
+      <Icon>Textures\Icons\DS_Supergen.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="4" z="8" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="0" z="1" />
+      <Model>Models\DS\DS_Supergen.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1100" />
+        <Component Subtype="Construction" Count="120" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="SmallTube" Count="310" />
+        <Component Subtype="MetalGrid" Count="200" />
+        <Component Subtype="Construction" Count="120" />
+        <Component Subtype="ShieldComponent" Count="900" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="120" />
+        <Component Subtype="SteelPlate" Count="1000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="4.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="4.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="8.00" EndY="3.99" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="8.00" EndY="3.99" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="8.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5.00" EndY="8.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\DS\DS_Supergen_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\DS\DS_Supergen_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1" File="Models\DS\DS_Supergen_Constr3.mwm" />
+      </BuildProgressModels>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>70</BuildTimeSeconds>
+      <Description>This block pressurizes station shields for breathable atmosphere.</Description>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <IceConsumptionPerSecond>1000</IceConsumptionPerSecond>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <ProducedGases>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+        <GasInfo>
+          <Id>
+            <TypeId>GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <IceToGasRatio>10</IceToGasRatio>
+        </GasInfo>
+      </ProducedGases>
+      <BlueprintClasses>
+        <Class>Ice</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BlockPairName>O2Generator</BlockPairName>
+      <GenerateSound>BlockOxyGenProcess</GenerateSound>
+      <IdleSound>BlockOxyGenIdle</IdleSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

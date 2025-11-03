@@ -1,6 +1,24 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BlueprintClassEntries>
+	<BlueprintClassEntries>
     <Entry Class="Components" BlueprintSubtypeId="ShieldComponentBP" />
-  </BlueprintClassEntries>
+
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/DSControlTable"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/DSControlLarge"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/DSControlSmall"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/NPCControlLB"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/NPCControlSB"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/DSSupergen"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/EmitterL"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/EmitterS"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/EmitterST"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/EmitterLA"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/EmitterSA"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/NPCEmitterLB"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/NPCEmitterSB"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeEnhancer"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/SmallEnhancer"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeShieldModulator"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/SmallShieldModulator"/>
+	</BlueprintClassEntries>
 </Definitions>

@@ -221,4 +221,13 @@
     <comment/>
   </data>
 
+  <data name="DisplayName_DSSupergen" xml:space="preserve">
+    <value>Shield Air Pressurizer</value>
+    <comment/>
+  </data>
+  <data name="Description_DSSupergen" xml:space="preserve">
+    <value>Shield Air Pressurizers fill the inside of a projected shield with breathable air.</value>
+    <comment/>
+  </data>
+
 </root>

@@ -49,5 +49,12 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup>
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldOxygen" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_OxygenGenerator" Subtype="DSSupergen" />
+      </Members>
+    </ResearchGroup>
+
   </ResearchGroups>
 </Definitions>
