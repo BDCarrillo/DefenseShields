@@ -17,6 +17,7 @@
         <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnhancer" />
         <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SmallShieldModulator" />
         <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeShieldModulator" />
+        <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="DSSupergen" />
       </Blocks>
     </BlockVariantGroup>
 

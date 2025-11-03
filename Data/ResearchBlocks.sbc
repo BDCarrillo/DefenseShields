@@ -85,5 +85,11 @@
         <GroupSubtype>ShieldModulation</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="DSSupergen" />
+      <UnlockedByGroups>
+        <GroupSubtype>ShieldEmitters</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
   </ResearchBlocks>
 </Definitions>

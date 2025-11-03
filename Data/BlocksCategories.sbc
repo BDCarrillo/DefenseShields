@@ -18,7 +18,7 @@
         <string>UpgradeModule/EmitterLA</string>
         <string>UpgradeModule/LargeEnhancer</string>
         <string>UpgradeModule/LargeShieldModulator</string>
-        <string>OxygenGenerator/DS_Supergen</string>
+        <string>OxygenGenerator/DSSupergen</string>
       </ItemIds>
     </Category>
 
@@ -60,7 +60,7 @@
         <string>UpgradeModule/SmallEnhancer</string>
         <string>UpgradeModule/SmallShieldModulator</string>
         <string>UpgradeModule/LargeShieldModulator</string>
-        <string>OxygenGenerator/DS_Supergen</string>
+        <string>OxygenGenerator/DSSupergen</string>
       </ItemIds>
     </Category>
 
@@ -84,7 +84,7 @@
         <string>UpgradeModule/SmallEnhancer</string>
         <string>UpgradeModule/SmallShieldModulator</string>
         <string>UpgradeModule/LargeShieldModulator</string>
-        <string>OxygenGenerator/DS_Supergen</string>
+        <string>OxygenGenerator/DSSupergen</string>
       </ItemIds>
     </Category>
 
