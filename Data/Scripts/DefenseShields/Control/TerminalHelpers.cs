@@ -188,7 +188,7 @@ namespace DefenseShields.Control
             return controls;
         }
 
-        internal static IMyTerminalControlCheckbox AddCheckbox<T>(T block, string name, string title, string tooltip, Func<IMyTerminalBlock, bool> getter, Action<IMyTerminalBlock, bool> setter, Func<IMyTerminalBlock, bool> enabledGetter = null, Func<IMyTerminalBlock, bool> visibleGetter = null) where T : IMyTerminalBlock
+        internal static IMyTerminalControlCheckbox AddCheckbox<T>(T block, string name, string title, string tooltip, Func<IMyTerminalBlock, bool> getter, Action<IMyTerminalBlock, bool> setter, Func<IMyTerminalBlock, bool> enabledGetter = null, Func<IMyTerminalBlock, bool> visibleGetter = null, string onText = "On", string offText = "Off") where T : IMyTerminalBlock
         {
             var c = MyAPIGateway.TerminalControls.CreateControl<IMyTerminalControlCheckbox, T>(name);
             var d = GetDefaultEnabled();
@@ -199,6 +199,8 @@ namespace DefenseShields.Control
             c.Setter = setter;
             c.Visible = visibleGetter ?? d;
             c.Enabled = enabledGetter ?? d;
+            c.OnText = MyStringId.GetOrCompute(onText);
+            c.OffText = MyStringId.GetOrCompute(offText);
 
             MyAPIGateway.TerminalControls.AddControl<T>(c);
             return c;

@@ -57,8 +57,8 @@ namespace DefenseShields
                 Fit = TerminalHelpers.AddSlider(comp?.Shield, "DS-CFit", Localization.GetText("TerminalFitTitle"), Localization.GetText("TerminalFitTooltip"), DsUi.GetFit, DsUi.SetFit);
                 Fit.SetLimits(0, 22);
 
-                SphereFit = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_SphereFit", Localization.GetText("TerminalSphereFitTitle"), Localization.GetText("TerminalSphereFitTooltip"), DsUi.GetSphereFit, DsUi.SetSphereFit);
-                FortifyShield = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_ShieldFortify", Localization.GetText("TerminalFortifyShieldTitle"), Localization.GetText("TerminalFortifyShieldTooltip"), DsUi.GetFortify, DsUi.SetFortify);
+                SphereFit = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_SphereFit", Localization.GetText("TerminalSphereFitTitle"), Localization.GetText("TerminalSphereFitTooltip"), DsUi.GetSphereFit, DsUi.SetSphereFit, null, null, "Sphere On", "Sphere Off");
+                FortifyShield = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_ShieldFortify", Localization.GetText("TerminalFortifyShieldTitle"), Localization.GetText("TerminalFortifyShieldTooltip"), DsUi.GetFortify, DsUi.SetFortify, null, null, "Fortify On", "Fortify Off");
 
                 TerminalHelpers.Separator(comp?.Shield, "DS-C_sep3");
                 
@@ -97,7 +97,7 @@ namespace DefenseShields
                 DimShieldHitsCheckBox = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_DimShieldHits", Localization.GetText("TerminalDimShieldHitsCheckBoxTitle"), Localization.GetText("TerminalDimShieldHitsCheckBoxTooltip"), DsUi.GetDimShieldHits, DsUi.SetDimShieldHits);
 
                 TerminalHelpers.Separator(comp?.Shield, "DS-C_sep6");
-                SideShunting = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_SideRedirect", Localization.GetText("TerminalSideShuntingTitle"), Localization.GetText("TerminalSideShuntingTooltip"), DsUi.GetSideShunting, DsUi.SetSideShunting, DsUi.SetSideShuntingVis);
+                SideShunting = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_SideRedirect", Localization.GetText("TerminalSideShuntingTitle"), Localization.GetText("TerminalSideShuntingTooltip"), DsUi.GetSideShunting, DsUi.SetSideShunting, DsUi.SetSideShuntingVis, null, "Shunt On", "Shunt Off");
                 ShowShunting = TerminalHelpers.AddCheckbox(comp?.Shield, "DS-C_ShowRedirect", Localization.GetText("TerminalShowShuntingTitle"), Localization.GetText("TerminalShowShuntingTooltip"), DsUi.GetShowShunting, DsUi.SetShowShunting);
 
                 TopShield = TerminalHelpers.AddOnOff(comp?.Shield, "DS-C_TopShield", Localization.GetText("TerminalTopShieldTitle"), Localization.GetText("TerminalTopShieldTooltip"), Localization.GetText("TerminalSwitchPush"), Localization.GetText("TerminalSwitchPull"), DsUi.GeTopShield, DsUi.SetTopShield, DsUi.RedirectEnabled);
@@ -154,9 +154,9 @@ namespace DefenseShields
                 ModSep2 = TerminalHelpers.Separator(comp?.Modulator, "DS-M_sep2");
                 ModReInforce = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateReInforceProt", Localization.GetText("TerminalModReInforceTitle"), Localization.GetText("TerminalModReInforceTooltip"), ModUi.GetReInforceProt, ModUi.SetReInforceProt);
                 AggregateModulation = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_AggreateModulation", Localization.GetText("TerminalPassiveModulationTitle"), Localization.GetText("TerminalPassiveModulationTooltip"), ModUi.GetAggregateModulation, ModUi.SetAggregateModulation, ModUi.GetAggregateModulationVis);
-                ModVoxels = TerminalHelpers.AddCheckbox(comp?.Modulator, " DS-M_ModulateVoxels", Localization.GetText("TerminalModVoxelsTitle"), Localization.GetText("TerminalModVoxelsTooltip"), ModUi.GetVoxels, ModUi.SetVoxels);
-                ModGrids = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateGrids", Localization.GetText("TerminalModGridsTitle"), Localization.GetText("TerminalModGridsTooltip"), ModUi.GetGrids, ModUi.SetGrids);
-                ModAllies = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateAllies", Localization.GetText("TerminalModAlliesTitle"), Localization.GetText("TerminalModAlliesTooltip"), ModUi.GetAllies, ModUi.SetAllies);
+                ModVoxels = TerminalHelpers.AddCheckbox(comp?.Modulator, " DS-M_ModulateVoxels", Localization.GetText("TerminalModVoxelsTitle"), Localization.GetText("TerminalModVoxelsTooltip"), ModUi.GetVoxels, ModUi.SetVoxels, null, null, "Voxels On", "Voxels Off");
+                ModGrids = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateGrids", Localization.GetText("TerminalModGridsTitle"), Localization.GetText("TerminalModGridsTooltip"), ModUi.GetGrids, ModUi.SetGrids, null, null, "Grids On", "Grids Off");
+                ModAllies = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateAllies", Localization.GetText("TerminalModAlliesTitle"), Localization.GetText("TerminalModAlliesTooltip"), ModUi.GetAllies, ModUi.SetAllies, null, null, "Allies On", "Allies Off");
                 ModEmp = TerminalHelpers.AddCheckbox(comp?.Modulator, "DS-M_ModulateEmpProt", Localization.GetText("TerminalModEmpTitle"), Localization.GetText("TerminalModEmpTooltip"), ModUi.GetEmpProt, ModUi.SetEmpProt);
 
                 CreateActionDamageModRate<IMyUpgradeModule>(ModDamage);
